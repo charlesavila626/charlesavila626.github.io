@@ -1,0 +1,33 @@
+<html>
+ <script type="text/javascript">
+  
+		function login() {
+			var username = document.getElementById("harambe1");
+			var pswd = document.getElementById("primape1");
+			
+			var user = "harambe"
+			var pass = "primape"
+			
+			if(username.value === user && pswd.value === pass){
+				console.log('You are a homosexual.');
+				window.open('webpage.html','_self', false);
+			}	
+			
+			console.log(username.value);
+			console.log(pswd.value)
+		}
+ </script>
+ <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ </head>
+
+ <body>
+  <form>
+   Username:<input type="text" id="harambe1"
+   <br>
+   Password:<input type="password" id="primape1">
+   <button type="button" onclick="login()"> Log in </button>
+  </form>
+ </body>
+
+</html>
